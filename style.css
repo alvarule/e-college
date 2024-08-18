@@ -1,0 +1,253 @@
+/*
+
+Classes for common use
+For using/seeing the demo of these, open index.html
+
+Body-
+    body-own
+
+Panel- 
+    panel-own
+    panel-transparent 
+
+Panel Image- 
+    img-thumbnail-own
+
+Header Font-
+    header
+
+Page Heading Font-
+    page-heading
+
+Panel Heading Font-
+    panel-heading
+
+Navbar + Student Name Font- 
+    navbar-studname
+
+Content Font- 
+    content-bold
+    content-light
+
+Aligning-
+    row
+    col-sm-1
+    col-sm-2
+    col-sm-3
+    col-sm-4
+    col-sm-5
+    col-sm-6
+    col-sm-7
+    col-sm-8
+    col-sm-9
+    col-sm-10
+    col-sm-11
+    col-sm-12
+
+Buttons- 
+    btn-normal
+    btn-full-width **
+
+Forms-
+    form-grp
+    form-label-own **
+    form-input **
+    form-input-full-width 
+    form-input-file
+    form-check
+    form-check-input
+    form-check-label
+
+Tables
+    table
+    table-responsive
+    table-hover
+    align-middle
+
+Accordions
+    accordion
+    accordion-flush
+    accordion-item
+    accordion-header
+    accordion-body
+    accordion-button
+    accordion-collapse
+    collapse
+    show (optional)
+
+*/
+
+*{
+    transition: 0.2s;
+}
+
+.body-own{
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+
+.panel-own{
+    margin: 20px 6%;
+    padding: 24px;
+    background-color: #D3E0EA;
+    border-radius: 14px;
+    box-shadow: 2px 2px 3px gray;
+    font-size: 16pt;
+}
+.panel-transparent{
+    margin: 20px 6%;
+    padding: 24px;
+    background-color: transparent;
+    border-radius: 14px;
+    font-size: 16pt;
+}
+
+.img-thumbnail-own{
+    width: 60%;
+    min-width: 50%;
+    min-height: auto;
+    max-width: 60%;
+    max-height: auto;
+    margin: 20px 10%;
+    border-radius: 12px;
+    border: none;
+}
+
+.header{
+    font-family: "Marcellus SC";
+    font-size: 28pt;
+    color: #000;
+}
+.page-heading{
+    font-family: "Marcellus";
+    font-size: 24pt;
+    text-align: center;
+    color: #000;
+}
+.panel-heading{
+    margin: 20px 6%;
+    font-family: "Marcellus";
+    font-size: 22pt;
+    color: #000;
+}
+.navbar-studname{
+    font-family: 'Mitr';
+    font-size: 20pt;
+    color: #000;
+}
+.content-bold{
+    margin: 0;
+    font-family: 'outfit';
+    font-size: 16pt;
+    font-weight: 500;
+    color: #000;
+}
+.content-light{
+    margin: 0;
+    font-family: 'outfit';
+    font-size: 16pt;
+    font-weight: 300;
+    color: #000;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+    text-align: center;
+}
+
+.btn-normal{
+    margin: 0;
+    padding: 5px 24px;
+    background-color: #005E85;
+    border: none;
+    border-radius: 10px;
+    font-family: "mitr";
+    font-size: 16pt;
+    color: #fff;
+}
+.btn-full-width{
+    margin: 20px auto;
+    padding: 10px 24px;
+    width: 75%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #005E85;
+    border: none;
+    border-radius: 15px;
+    font-family: "mitr";
+    font-size: 18pt;
+    color: #fff;
+}
+.btn-normal:hover, .btn-full-width:hover{
+    background-color: #0079ad;
+}
+.btn-normal:active, .btn-full-width:active{
+    background-color: #005E85;
+}
+
+.form-grp{
+    margin: 10px 0;
+    display: table;
+    width: 100%;
+}
+.form-label-own{
+    margin: 0;
+    position: static;
+    left: 0px;
+    width: 20%;
+    font-family: 'outfit';
+    font-weight: 500;
+    font-size: 14pt;
+    box-sizing: border-box;
+    color: #000;
+}
+.form-input{
+    margin: 0;
+    position: static;
+    right: 0px;
+    width: 79%;
+    padding: 5px 16px;
+    font-family: 'outfit';
+    font-size: 14pt;
+    font-weight: 300;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #D3E0EA;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.form-input-full-width{
+    margin: 0;
+    position: static;
+    right: 0px;
+    width: 95%;
+    padding: 5px 16px;
+    font-family: 'outfit';
+    font-size: 14pt;
+    font-weight: 300;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #D3E0EA;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.form-input-file{
+    background-color: transparent;
+}
+
+.table{
+    text-align: center;
+}
+
+.accordion{
+    margin: 20px 6%;
+}
+.accordion-item{
+    margin: 10px 0;
+}
+/* .accordion-header{
+}
+.accordion-body{
+}
+.accordion-button{
+} */
